@@ -66,8 +66,9 @@
     right: 0;
     top: 0;
     bottom: 0;
-    background-color:rgb(204, 201, 255);
+    background-color:#C3FCF1;
     border: 3px solid rgba(90, 86, 143);
+    border-right: none;
     z-index: 100;
     box-shadow: -10px 0px 80px 5px #2c6d59;
     opacity: 0;
@@ -98,7 +99,7 @@
     font-weight: 500;
     font-size: 1.2rem;
     letter-spacing: 2.25px;
-    text-shadow: 2px 2px 2px rgba(90, 86, 143);
+    text-shadow: 2px 2px 3px rgba(90, 86, 143);
 }
 
 .navcol li:last-child{
