@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cornhole-counter/static/css/main.c455bcd6.css",
-    "main.js": "/cornhole-counter/static/js/main.ff2357e9.js",
+    "main.css": "/cornhole-counter/static/css/main.9cb6467a.css",
+    "main.js": "/cornhole-counter/static/js/main.1f334be3.js",
     "static/js/787.c0f289a6.chunk.js": "/cornhole-counter/static/js/787.c0f289a6.chunk.js",
     "index.html": "/cornhole-counter/index.html",
-    "main.c455bcd6.css.map": "/cornhole-counter/static/css/main.c455bcd6.css.map",
-    "main.ff2357e9.js.map": "/cornhole-counter/static/js/main.ff2357e9.js.map",
+    "main.9cb6467a.css.map": "/cornhole-counter/static/css/main.9cb6467a.css.map",
+    "main.1f334be3.js.map": "/cornhole-counter/static/js/main.1f334be3.js.map",
     "787.c0f289a6.chunk.js.map": "/cornhole-counter/static/js/787.c0f289a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c455bcd6.css",
-    "static/js/main.ff2357e9.js"
+    "static/css/main.9cb6467a.css",
+    "static/js/main.1f334be3.js"
   ]
 }
