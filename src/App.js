@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar/Navbar.js";
+
 import styles from "./App.module.css";
 
 function App() {
   return (
     <div className={styles.main}>
-      Cornhole Counter
+      <Navbar />
     </div>
   );
 }
