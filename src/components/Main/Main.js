@@ -12,7 +12,7 @@ const Main = props => {
                     <span>0</span>
                     <button>-</button>
                 </div>
-                <h2>White Team</h2>
+                <h2>WHITE TEAM</h2>
             </div>
             <div className={styles["red-team-container"]}>
                 <h3>points</h3>
@@ -21,7 +21,7 @@ const Main = props => {
                     <span>2</span>
                     <button>-</button>
                 </div>
-                <h2>Red Team</h2>
+                <h2>RED TEAM</h2>
             </div>
         </div>
     )
