@@ -69,10 +69,8 @@
     top: 0;
     bottom: 0;
     background-color:rgba(90, 86, 143);
-    border: 3px solid rgba(90, 86, 143);
-    border-right: none;
     z-index: 500;
-    box-shadow: -10px 0px 80px 5px #2c6d59;
+    box-shadow: -10px 0px 80px 5px #000000;
     opacity: 0;
     transform: translatex(100%);
     animation: navcol 1s ease forwards;
