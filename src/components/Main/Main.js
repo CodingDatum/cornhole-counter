@@ -23,7 +23,6 @@ const Main = props => {
     return (
         <div className={styles.main}>
             <div className={styles["white-team-container"]}>
-                <h3>points</h3>
                 <div className={styles["point-buttons"]}>
                     <button onClick={addWhitePoint}>+</button>
                     <span>{whiteTeamWorkingPoints}</span>
@@ -32,7 +31,6 @@ const Main = props => {
                 <h2>WHITE TEAM</h2>
             </div>
             <div className={styles["red-team-container"]}>
-                <h3>points</h3>
                 <div className={styles["point-buttons"]}>
                     <button onClick={addRedPoint}>+</button>
                     <span>{redTeamWorkingPoints}</span>
@@ -40,6 +38,7 @@ const Main = props => {
                 </div>
                 <h2>RED TEAM</h2>
             </div>
+            <button className={styles["submit-round-button"]}>submit points</button>
         </div>
     )
 }

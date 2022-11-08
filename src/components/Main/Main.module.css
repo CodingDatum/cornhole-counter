@@ -4,6 +4,7 @@
     display: flex;
     align-items: stretch;
     z-index: 300;
+    position: relative;
 }
 
 .main h2{
@@ -63,4 +64,31 @@
 .point-buttons span{
     font-size: 2rem;
     font-weight: bold;
+}
+
+.submit-round-button{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 80%;
+    position: absolute;
+    bottom: 15%;
+    background: linear-gradient(127deg, #E84172, rgb(255, 255, 255) );
+    border: 2.5px solid rgba(90, 86, 143);
+    color: rgba(90, 86, 143);
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 20px rgb(40, 38, 62);
+}
+
+.submit-round-button::before{
+    content:"(only submit points once all bags have been thrown)";
+    position: absolute;
+    font-size: 0.7rem;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    top: -80%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
 }

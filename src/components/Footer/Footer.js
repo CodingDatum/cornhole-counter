@@ -5,7 +5,6 @@ import styles from './Footer.module.css'
 const Footer = props => {
     return(
         <div className={styles["footer-container"]}>
-            <button className={styles["submit-round-button"]}>submit points</button>
             <div className={styles["stats"]}>
                 <span>{props.whiteRoundScore}</span>
                 <span>{props.whiteMatchScore}</span>
