@@ -92,3 +92,14 @@
     transform: translateX(-50%);
     width: 50vw;
 }
+
+.round-score{
+    position: absolute;
+    top: 2%;
+    color: rgb(204, 201, 255);
+    text-shadow: 1px 1px 1px black;
+    z-index: 400;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}

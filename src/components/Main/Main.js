@@ -28,6 +28,7 @@ const Main = props => {
 
     return (
         <div className={styles.main}>
+            <div className={styles["round-score"]}>ROUND SCORE</div>
             <div className={styles["white-team-container"]}>
                 <div className={styles["point-buttons"]}>
                     <button onClick={addWhitePoint}>+</button>

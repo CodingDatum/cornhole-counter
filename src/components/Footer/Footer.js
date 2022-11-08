@@ -10,7 +10,7 @@ const Footer = props => {
                 <span>{props.whiteMatchScore}</span>
             </div>
             <div className={styles["stat-title"]}>
-                <span>ROUND SCORE</span>
+                <span>GAME SCORE</span>
                 <span>MATCH SCORE</span>
             </div>
             <div className={styles["stats"]}>
