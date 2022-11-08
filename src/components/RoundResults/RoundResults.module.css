@@ -1,0 +1,27 @@
+.round-results{
+    height: 50%;
+    width: 80%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translatex(-50%) translateY(-50%);
+    background-color: rgba(90, 86, 143);
+    color: rgb(204, 201, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.round-results p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.round-results button{
+    border: 3px solid rgb(204, 201, 255);
+    color: rgb(204, 201, 255);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
