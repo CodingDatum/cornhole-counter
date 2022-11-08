@@ -23,6 +23,19 @@
     text-shadow: 1px 1px 1px black;
 }
 
+.stat-title{
+    border-left: 5px dotted white;
+    border-right: 5px dotted #E84172;
+}
+
 .stats{
     font-size: 2rem;
+}
+
+.stats:first-child{
+    color: white;
+}
+
+.stats:last-child{
+    color:#E84172;
 }
