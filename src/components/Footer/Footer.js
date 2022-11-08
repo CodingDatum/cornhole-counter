@@ -7,16 +7,16 @@ const Footer = props => {
         <div className={styles["footer-container"]}>
             <button className={styles["submit-round-button"]}>submit points</button>
             <div className={styles["stats"]}>
-                <span>0</span>
-                <span>0</span>
+                <span>{props.whiteRoundScore}</span>
+                <span>{props.whiteMatchScore}</span>
             </div>
             <div className={styles["stat-title"]}>
                 <span>ROUND SCORE</span>
                 <span>MATCH SCORE</span>
             </div>
             <div className={styles["stats"]}>
-                <span>0</span>
-                <span>0</span>
+                <span>{props.redRoundScore}</span>
+                <span>{props.redMatchScore}</span>
             </div>
         </div>
     )
