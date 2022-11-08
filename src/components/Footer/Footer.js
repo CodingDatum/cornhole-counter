@@ -6,9 +6,18 @@ const Footer = props => {
     return(
         <div className={styles["footer-container"]}>
             <button className={styles["submit-round-button"]}>submit points</button>
-            <div>White Team Stats</div>
-            <div>Title of Stat</div>
-            <div>Red Team Stats</div>
+            <div className={styles["stats"]}>
+                <span>0</span>
+                <span>0</span>
+            </div>
+            <div className={styles["stat-title"]}>
+                <span>ROUND SCORE</span>
+                <span>MATCH SCORE</span>
+            </div>
+            <div className={styles["stats"]}>
+                <span>0</span>
+                <span>0</span>
+            </div>
         </div>
     )
 };

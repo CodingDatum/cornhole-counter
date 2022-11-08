@@ -39,3 +39,17 @@
     transform: translateX(-50%);
     width: 50vw;
 }
+
+.stat-title, .stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.stats{
+    font-size: 2rem;
+}
