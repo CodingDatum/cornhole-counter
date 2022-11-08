@@ -40,14 +40,18 @@ function App() {
       setWhiteRoundScore(0);
       setRedRoundScore(0);
       setRoundWinner("White Team");
-      setRoundResults(true);
+      setTimeout(() => {
+        setRoundResults(true);
+      }, 1000)
     }
     if(redRoundScore >= 21){
       setRedMatchScore(redMatchScore + 1)
       setWhiteRoundScore(0);
       setRedRoundScore(0);
       setRoundWinner("Red Team");
-      setRoundResults(true);
+      setTimeout(() => {
+        setRoundResults(true);
+      }, 1000)
     }
   },[whiteRoundScore, redRoundScore, whiteMatchScore, redMatchScore])
 
