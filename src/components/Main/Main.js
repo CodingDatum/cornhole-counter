@@ -20,6 +20,12 @@ const Main = props => {
         setRedTeamWorkingPoints(redTeamWorkingPoints-1)
     }
 
+    const submitClickHandler = () => {
+        props.submitRoundHandler(whiteTeamWorkingPoints, redTeamWorkingPoints);
+        setWhiteTeamWorkingPoints(0);
+        setRedTeamWorkingPoints(0);
+    }
+
     return (
         <div className={styles.main}>
             <div className={styles["white-team-container"]}>
@@ -38,7 +44,7 @@ const Main = props => {
                 </div>
                 <h2>RED TEAM</h2>
             </div>
-            <button className={styles["submit-round-button"]}>submit points</button>
+            <button className={styles["submit-round-button"]} onClick={submitClickHandler}>submit points</button>
         </div>
     )
 }
