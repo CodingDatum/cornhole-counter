@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar.js";
 import Main from "./components/Main/Main.js";
 import Footer from "./components/Footer/Footer.js";
@@ -25,6 +25,19 @@ function App() {
       setRedRoundScore(redRoundScore + redPointsEarned)
     }
   }
+
+  useEffect(() => {
+    if(whiteRoundScore >= 21){
+      setWhiteMatchScore(whiteMatchScore + 1)
+      setWhiteRoundScore(0);
+      setRedRoundScore(0);
+    }
+    if(redRoundScore >= 21){
+      setRedMatchScore(redMatchScore + 1)
+      setWhiteRoundScore(0);
+      setRedRoundScore(0);
+    }
+  },[whiteRoundScore, redRoundScore, whiteMatchScore, redMatchScore])
 
   return (
     <div className={styles.main}>
