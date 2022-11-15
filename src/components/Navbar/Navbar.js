@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import GameRules from "./GameRules";
+import SendApp from "./SendApp";
 
 import styles from "./Navbar.module.css";
 
@@ -7,6 +8,7 @@ const Navbar = props => {
 
     const [navcolState, setNavcolState] = useState("closed");
     const [rulesActive, setRulesActive] = useState(false);
+    const [sendAppIsOpen, setSendAppIsOpen] = useState(false);
 
     const hamburgerClickHandler = () => {
         // this will only apply to clicking the hamburger, so will only open the overlay for now...
@@ -25,9 +27,18 @@ const Navbar = props => {
         setRulesActive(false)
     }
 
+    const openSendApp = () => {
+        setSendAppIsOpen(true)
+    }
+
+    const closeSendApp = () => {
+        setSendAppIsOpen(false)
+    }
+
     return (
         <React.Fragment>
             {rulesActive && <GameRules closeRules={closeRules} />}
+            {sendAppIsOpen && <SendApp closeSendApp={closeSendApp} />}
             <div className={styles.navbar}>
                 <h1>Cornhole</h1>
                 {navcolState === "closed" &&
@@ -49,6 +60,7 @@ const Navbar = props => {
                             <li><a href="https://pridesportsusa.com/boston/">PRIDE SPORTS</a></li>
                             <li onClick={openRules}>GAME RULES</li>
                             <li>FAQ's</li>
+                            <li onClick={openSendApp}>SEND APP</li>
                             <li>&copy;</li>
                         </ul>
                     </div>
