@@ -12,6 +12,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 1.5rem;
+    box-shadow: 0px 5px 50px 10px black;
 }
 
 .round-results p{
